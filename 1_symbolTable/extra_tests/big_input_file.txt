@@ -1,0 +1,427 @@
+I S1 : struct{int a; float b;}
+I S2 : struct{char x; double y;}
+I U1 : union{int i; float f;}
+I U2 : union{char c; long l;}
+I F1 : function int()
+I F2 : function void(int)
+S
+I width98 : int
+L value50
+D avg42
+S
+L avg37
+S
+L buffer53
+E
+E
+D width29
+S
+D temp77
+D sum32
+E
+E
+S
+P
+P
+I value25 : struct S2
+L data52
+E
+I flag53 : long
+S
+S
+S
+S
+E
+S
+P
+L buffer72
+P
+P
+D ptr7
+P
+S
+E
+I value33 : struct S1
+S
+D flag72
+I size50 : union U1
+D index84
+I node47 : float
+L x85
+D value40
+P
+D data26
+E
+S
+D list80
+S
+E
+I data37 : double
+E
+P
+S
+D data13
+S
+S
+S
+L tree74
+D buffer81
+D height6
+D sum44
+I size7 : struct S1
+I height51 : float
+L data32
+P
+S
+I temp66 : char
+P
+P
+L result67
+L avg9
+I sum84 : union U2
+E
+P
+D node42
+P
+D index9
+E
+S
+E
+D list74
+D x63
+E
+I data71 : float
+P
+S
+S
+S
+E
+P
+L ptr23
+S
+S
+I data58 : struct S2
+P
+P
+S
+L ptr11
+L ptr18
+P
+D tree44
+D size60
+P
+P
+S
+P
+P
+L count89
+P
+D flag57
+L sum28
+S
+E
+D node76
+L height99
+P
+I sum2 : double
+E
+P
+D tree26
+E
+L count48
+I value10 : long
+L data67
+P
+S
+D avg61
+P
+L height12
+D temp16
+L buffer64
+D temp73
+S
+D node93
+S
+S
+D tree65
+E
+S
+D x29
+D x90
+D temp20
+L sum42
+E
+L size16
+D node78
+P
+P
+S
+S
+S
+I flag58 : function void(int)
+D node96
+E
+S
+S
+D flag25
+P
+L node56
+L height67
+L y69
+E
+L value28
+S
+P
+D value69
+P
+D size89
+D list79
+L result49
+I result72 : double
+P
+D buffer58
+D index37
+D node63
+D sum2
+E
+S
+D buffer27
+L buffer16
+P
+E
+S
+P
+D sum77
+I y65 : union U2
+P
+L tree48
+L avg44
+I count99 : float
+P
+D x98
+I flag84 : function float(char, double)
+S
+L sum63
+P
+I node71 : double
+I ptr57 : union U1
+D index37
+P
+E
+P
+P
+D tree14
+D height37
+D count4
+S
+S
+L buffer87
+P
+L tree55
+E
+P
+I count42 : function void(int)
+S
+S
+E
+E
+P
+E
+E
+L sum34
+S
+I index74 : float
+S
+L height40
+I ptr57 : union U1
+I flag99 : function void(int)
+L tree95
+D result93
+I count93 : char
+L avg12
+E
+L list33
+L ptr19
+L x91
+I avg28 : union U1
+L width49
+I count36 : float
+I temp9 : struct S1
+D value45
+L sum94
+D height98
+S
+E
+S
+D ptr84
+E
+S
+S
+I index15 : double
+P
+P
+I sum9 : long
+E
+D temp100
+E
+P
+E
+S
+P
+D height19
+S
+D count84
+L node69
+D count42
+D ptr7
+I node50 : struct S1
+S
+L avg8
+D data48
+S
+P
+E
+E
+D width1
+I avg81 : char
+L temp91
+D index63
+P
+S
+I value18 : union U2
+E
+I height17 : union U1
+I temp11 : long
+D x52
+E
+S
+P
+P
+I list78 : function int()
+E
+L ptr33
+L data77
+P
+D width10
+E
+S
+D node78
+D x95
+L x85
+D ptr52
+E
+I result51 : struct S2
+D width6
+L width93
+E
+L result24
+S
+E
+S
+E
+L height79
+S
+L flag6
+P
+E
+D node59
+P
+I x36 : int
+I temp57 : function float(char, double)
+P
+L index1
+E
+P
+I y16 : struct S1
+D width49
+E
+I sum38 : struct S1
+L y16
+D size39
+I avg8 : function int()
+P
+P
+S
+L list7
+L index22
+P
+I avg28 : function int()
+E
+D node84
+P
+S
+L value15
+P
+S
+D node24
+I ptr30 : union U2
+D index79
+P
+E
+L buffer27
+S
+S
+L list97
+S
+I flag18 : int
+D y16
+P
+E
+S
+S
+E
+S
+I x74 : long
+L size85
+L sum81
+D value75
+P
+S
+E
+I buffer9 : struct S2
+I list14 : double
+L height33
+I x20 : float
+S
+D size33
+I node37 : double
+I buffer92 : function int()
+E
+P
+S
+D x74
+E
+S
+S
+I node94 : bool
+E
+L result56
+E
+I count21 : bool
+D result59
+D flag55
+S
+E
+I list76 : bool
+E
+I avg77 : double
+E
+S
+L avg99
+I height55 : double
+E
+L buffer7
+D avg76
+L data22
+D node62
+D buffer84
+E
+E
+I count45 : function void(int)
+L height75
+P
+E
+I data94 : char
+S
+E
+S

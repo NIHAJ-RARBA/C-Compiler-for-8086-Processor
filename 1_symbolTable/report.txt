@@ -1,0 +1,279 @@
+----------------------------------------
+----------------------------------------
+Hash Function: SDBM
+	Total ScopeTables: 8
+	Average Collisions per Bucket: 0.333333
+	Average Insertions: 2
+	Average Deletions: 0
+	Average Collisions: 1
+	Average Load Factor: 0.666667
+	Average Max Chain Length: 2
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Hash Function: Jenkins
+	Total ScopeTables: 8
+	Average Collisions per Bucket: 0
+	Average Insertions: 2
+	Average Deletions: 0
+	Average Collisions: 0
+	Average Load Factor: 0.666667
+	Average Max Chain Length: 1
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Hash Function: Polynomial Rolling
+	Total ScopeTables: 8
+	Average Collisions per Bucket: 0.333333
+	Average Insertions: 2
+	Average Deletions: 0
+	Average Collisions: 1
+	Average Load Factor: 0.666667
+	Average Max Chain Length: 2
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Hash Function: Murmur
+	Total ScopeTables: 8
+	Average Collisions per Bucket: 0.333333
+	Average Insertions: 2
+	Average Deletions: 0
+	Average Collisions: 1
+	Average Load Factor: 0.666667
+	Average Max Chain Length: 2
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Hash Function: SDBM
+	Total ScopeTables: 8
+	Average Collisions per Bucket: 0.333333
+	Average Insertions: 2
+	Average Deletions: 0
+	Average Collisions: 1
+	Average Load Factor: 0.666667
+	Average Max Chain Length: 2
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Hash Function: Jenkins
+	Total ScopeTables: 8
+	Average Collisions per Bucket: 0
+	Average Insertions: 2
+	Average Deletions: 0
+	Average Collisions: 0
+	Average Load Factor: 0.666667
+	Average Max Chain Length: 1
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Hash Function: Polynomial Rolling
+	Total ScopeTables: 8
+	Average Collisions per Bucket: 0.333333
+	Average Insertions: 2
+	Average Deletions: 0
+	Average Collisions: 1
+	Average Load Factor: 0.666667
+	Average Max Chain Length: 2
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Hash Function: Murmur
+	Total ScopeTables: 8
+	Average Collisions per Bucket: 0.333333
+	Average Insertions: 2
+	Average Deletions: 0
+	Average Collisions: 1
+	Average Load Factor: 0.666667
+	Average Max Chain Length: 2
+
+----------------------------------------
+---------------------------------------------------------------------------------------------
+	 Hash Function Sources: 
+		 SBDM : https://www.programmingalgorithms.com/algorithm/sdbm-hash/cpp/
+		 Jenkins : https://en.wikipedia.org/wiki/Jenkins_hash_function
+		 Polynomial Rolling : https://www.geeksforgeeks.org/polynomial-rolling-hash/
+		 Murmur : https://en.wikipedia.org/wiki/MurmurHash
+		 The Exact Implementation of MurmurHash3 is taken from the internet and the author is credited in the MurMurHash3 files.
+		 The other hash functions were implemented during L2 for our hashing offline; thus the exact sources are not listed, but a close implementation is.
+-------------------------------------------------------------------------------------------
+----------------------------------------
+----------------------------------------
+Hash Function: SDBM
+	Total ScopeTables: 8
+	Average Collisions per Bucket: 0.333333
+	Average Insertions: 2
+	Average Deletions: 0
+	Average Collisions: 1
+	Average Load Factor: 0.666667
+	Average Max Chain Length: 2
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Hash Function: Jenkins
+	Total ScopeTables: 8
+	Average Collisions per Bucket: 0
+	Average Insertions: 2
+	Average Deletions: 0
+	Average Collisions: 0
+	Average Load Factor: 0.666667
+	Average Max Chain Length: 1
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Hash Function: Polynomial Rolling
+	Total ScopeTables: 8
+	Average Collisions per Bucket: 0.333333
+	Average Insertions: 2
+	Average Deletions: 0
+	Average Collisions: 1
+	Average Load Factor: 0.666667
+	Average Max Chain Length: 2
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Hash Function: Murmur
+	Total ScopeTables: 8
+	Average Collisions per Bucket: 0.333333
+	Average Insertions: 2
+	Average Deletions: 0
+	Average Collisions: 1
+	Average Load Factor: 0.666667
+	Average Max Chain Length: 2
+
+----------------------------------------
+---------------------------------------------------------------------------------------------
+	 Hash Function Sources: 
+		 SBDM : https://www.programmingalgorithms.com/algorithm/sdbm-hash/cpp/
+		 Jenkins : https://en.wikipedia.org/wiki/Jenkins_hash_function
+		 Polynomial Rolling : https://www.geeksforgeeks.org/polynomial-rolling-hash/
+		 Murmur : https://en.wikipedia.org/wiki/MurmurHash
+		 The Exact Implementation of MurmurHash3 is taken from the internet and 			the author is credited in the MurMurHash3 files.
+		 The other hash functions were implemented during L2 for our hashing offline; 			thus the exact sources are not listed, but a close implementation is.
+-------------------------------------------------------------------------------------------
+----------------------------------------
+----------------------------------------
+Hash Function: SDBM
+	Total ScopeTables: 8
+	Average Collisions per Bucket: 0.333333
+	Average Insertions: 2
+	Average Deletions: 0
+	Average Collisions: 1
+	Average Load Factor: 0.666667
+	Average Max Chain Length: 2
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Hash Function: Jenkins
+	Total ScopeTables: 8
+	Average Collisions per Bucket: 0
+	Average Insertions: 2
+	Average Deletions: 0
+	Average Collisions: 0
+	Average Load Factor: 0.666667
+	Average Max Chain Length: 1
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Hash Function: Polynomial Rolling
+	Total ScopeTables: 8
+	Average Collisions per Bucket: 0.333333
+	Average Insertions: 2
+	Average Deletions: 0
+	Average Collisions: 1
+	Average Load Factor: 0.666667
+	Average Max Chain Length: 2
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Hash Function: Murmur
+	Total ScopeTables: 8
+	Average Collisions per Bucket: 0.333333
+	Average Insertions: 2
+	Average Deletions: 0
+	Average Collisions: 1
+	Average Load Factor: 0.666667
+	Average Max Chain Length: 2
+
+----------------------------------------
+---------------------------------------------------------------------------------------------
+	 Hash Function Sources: 
+		 SBDM : https://www.programmingalgorithms.com/algorithm/sdbm-hash/cpp/
+		 Jenkins : https://en.wikipedia.org/wiki/Jenkins_hash_function
+		 Polynomial Rolling : https://www.geeksforgeeks.org/polynomial-rolling-hash/
+		 Murmur : https://en.wikipedia.org/wiki/MurmurHash
+		 The Exact Implementation of MurmurHash3 is taken from the internet and 			the author is credited in the MurMurHash3 files.
+
+		 The other hash functions were implemented during L2 for our hashing offline; 			thus the exact sources are not listed, but a close implementation is.
+---------------------------------------------------------------------------------------------
+----------------------------------------
+----------------------------------------
+Hash Function: SDBM
+	Total ScopeTables: 8
+	Average Collisions per Bucket: 0.333333
+	Average Insertions: 2
+	Average Deletions: 0
+	Average Collisions: 1
+	Average Load Factor: 0.666667
+	Average Max Chain Length: 2
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Hash Function: Jenkins
+	Total ScopeTables: 8
+	Average Collisions per Bucket: 0
+	Average Insertions: 2
+	Average Deletions: 0
+	Average Collisions: 0
+	Average Load Factor: 0.666667
+	Average Max Chain Length: 1
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Hash Function: Polynomial Rolling
+	Total ScopeTables: 8
+	Average Collisions per Bucket: 0.333333
+	Average Insertions: 2
+	Average Deletions: 0
+	Average Collisions: 1
+	Average Load Factor: 0.666667
+	Average Max Chain Length: 2
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Hash Function: Murmur
+	Total ScopeTables: 8
+	Average Collisions per Bucket: 0.333333
+	Average Insertions: 2
+	Average Deletions: 0
+	Average Collisions: 1
+	Average Load Factor: 0.666667
+	Average Max Chain Length: 2
+
+----------------------------------------
+---------------------------------------------------------------------------------------------
+	 Hash Function Sources: 
+		 SBDM : https://www.programmingalgorithms.com/algorithm/sdbm-hash/cpp/
+		 Jenkins : https://en.wikipedia.org/wiki/Jenkins_hash_function
+		 Polynomial Rolling : https://www.geeksforgeeks.org/polynomial-rolling-hash/
+		 Murmur : https://en.wikipedia.org/wiki/MurmurHash
+
+		 The implementation of MurmurHash3 is taken from the internet and 			the author is credited in the MurMurHash3 files.
+
+		 The other hash functions were implemented during L2 for our hashing offline; 			thus the exact sources are not listed, but a close implementation is.
+---------------------------------------------------------------------------------------------

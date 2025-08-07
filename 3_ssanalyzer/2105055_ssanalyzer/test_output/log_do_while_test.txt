@@ -1,0 +1,652 @@
+Line 1: type_specifier : INT
+
+int
+
+Line 1: type_specifier : INT
+
+int
+
+Line 1: parameter_list : type_specifier ID
+
+int a
+
+Line 1: type_specifier : INT
+
+int
+
+Line 1: parameter_list : parameter_list COMMA type_specifier ID
+
+int a,int b
+
+Line 3: variable : ID
+
+a
+
+Line 3: factor : variable
+
+a
+
+Line 3: unary_expression : factor
+
+a
+
+Line 3: term : unary_expression
+
+a
+
+Line 3: simple_expression : term
+
+a
+
+Line 3: variable : ID
+
+b
+
+Line 3: factor : variable
+
+b
+
+Line 3: unary_expression : factor
+
+b
+
+Line 3: term : unary_expression
+
+b
+
+Line 3: simple_expression : simple_expression ADDOP term
+
+a+b
+
+Line 3: rel_expression : simple_expression
+
+a+b
+
+Line 3: logic_expression : rel_expression
+
+a+b
+
+Line 3: expression : logic_expression
+
+a+b
+
+Line 3: statement : RETURN expression SEMICOLON
+
+return a+b;
+
+Line 3: statements : statement
+
+return a+b;
+
+Line 4: compound_statement : LCURL statements RCURL
+
+{
+return a+b;
+}
+
+ScopeTable # 1.1
+0 --> < b : ID >
+6 --> < a : ID >
+ScopeTable # 1
+0 --> < var : ID >
+
+Line 4: func_definition : type_specifier ID LPAREN parameter_list RPAREN compound_statement
+
+int var(int a,int b){
+return a+b;
+}
+
+Line 4: unit : func_definition
+
+int var(int a,int b){
+return a+b;
+}
+
+Line 4: program : unit
+
+int var(int a,int b){
+return a+b;
+}
+
+Line 5: type_specifier : INT
+
+int
+
+Line 7: type_specifier : FLOAT
+
+float
+
+Line 7: declaration_list : ID
+
+d
+
+Line 7: var_declaration : type_specifier declaration_list SEMICOLON
+
+float d;
+
+Line 7: statement : var_declaration
+
+float d;
+
+Line 7: statements : statement
+
+float d;
+
+Line 8: variable : ID
+
+d
+
+Line 8: factor : CONST_INT
+
+1
+
+Line 8: unary_expression : factor
+
+1
+
+Line 8: term : unary_expression
+
+1
+
+Line 8: simple_expression : term
+
+1
+
+Line 8: rel_expression : simple_expression
+
+1
+
+Line 8: logic_expression : rel_expression
+
+1
+
+Line 8: arguments : logic_expression
+
+1
+
+Line 8: factor : CONST_INT
+
+2
+
+Line 8: unary_expression : factor
+
+2
+
+Line 8: term : unary_expression
+
+2
+
+Line 8: factor : CONST_INT
+
+3
+
+Line 8: unary_expression : factor
+
+3
+
+Line 8: term : term MULOP unary_expression
+
+2*3
+
+Line 8: simple_expression : term
+
+2*3
+
+Line 8: rel_expression : simple_expression
+
+2*3
+
+Line 8: logic_expression : rel_expression
+
+2*3
+
+Line 8: arguments : arguments COMMA logic_expression
+
+1,2*3
+
+Line 8: argument_list : arguments
+
+1,2*3
+
+Line 8: factor : ID LPAREN argument_list RPAREN
+
+var(1,2*3)
+
+Line 8: unary_expression : factor
+
+var(1,2*3)
+
+Line 8: term : unary_expression
+
+var(1,2*3)
+
+Line 8: simple_expression : term
+
+var(1,2*3)
+
+Line 8: factor : CONST_FLOAT
+
+3.5
+
+Line 8: unary_expression : factor
+
+3.5
+
+Line 8: term : unary_expression
+
+3.5
+
+Line 8: factor : CONST_INT
+
+2
+
+Line 8: unary_expression : factor
+
+2
+
+Line 8: term : term MULOP unary_expression
+
+3.5*2
+
+Line 8: simple_expression : simple_expression ADDOP term
+
+var(1,2*3)+3.5*2
+
+Line 8: rel_expression : simple_expression
+
+var(1,2*3)+3.5*2
+
+Line 8: logic_expression : rel_expression
+
+var(1,2*3)+3.5*2
+
+Line 8: expression : variable ASSIGNOP logic_expression
+
+d=var(1,2*3)+3.5*2
+
+Line 8: expression_statement : expression SEMICOLON
+
+d=var(1,2*3)+3.5*2;
+
+Line 8: statement : expression_statement
+
+d=var(1,2*3)+3.5*2;
+
+Line 8: statements : statements statement
+
+float d;
+d=var(1,2*3)+3.5*2;
+
+Line 9: type_specifier : INT
+
+int
+
+Line 9: declaration_list : ID
+
+i
+
+Line 9: var_declaration : type_specifier declaration_list SEMICOLON
+
+int i;
+
+Line 9: statement : var_declaration
+
+int i;
+
+Line 9: statements : statements statement
+
+float d;
+d=var(1,2*3)+3.5*2;
+int i;
+
+Line 10: variable : ID
+
+i
+
+Line 10: factor : CONST_INT
+
+0
+
+Line 10: unary_expression : factor
+
+0
+
+Line 10: term : unary_expression
+
+0
+
+Line 10: simple_expression : term
+
+0
+
+Line 10: rel_expression : simple_expression
+
+0
+
+Line 10: logic_expression : rel_expression
+
+0
+
+Line 10: expression : variable ASSIGNOP logic_expression
+
+i=0
+
+Line 10: expression_statement : expression SEMICOLON
+
+i=0;
+
+Line 10: statement : expression_statement
+
+i=0;
+
+Line 10: statements : statements statement
+
+float d;
+d=var(1,2*3)+3.5*2;
+int i;
+i=0;
+
+Line 14: variable : ID
+
+i
+
+Line 14: factor : variable
+
+i
+
+Line 14: unary_expression : factor
+
+i
+
+Line 14: term : unary_expression
+
+i
+
+Line 14: simple_expression : term
+
+i
+
+Line 14: factor : CONST_INT
+
+3
+
+Line 14: unary_expression : factor
+
+3
+
+Line 14: term : unary_expression
+
+3
+
+Line 14: simple_expression : term
+
+3
+
+Line 14: rel_expression : simple_expression RELOP simple_expression
+
+i==3
+
+Line 14: logic_expression : rel_expression
+
+i==3
+
+Line 14: expression : logic_expression
+
+i==3
+
+Line 15: statement: BREAK SEMICOLON
+
+break;
+
+Line 15: statement : IF LPAREN expression RPAREN statement
+
+if(i==3)break;
+
+Line 15: statements : statement
+
+if(i==3)break;
+
+Line 16: variable : ID
+
+i
+
+Line 16: factor : variable INCOP
+
+i++
+
+Line 16: unary_expression : factor
+
+i++
+
+Line 16: term : unary_expression
+
+i++
+
+Line 16: simple_expression : term
+
+i++
+
+Line 16: rel_expression : simple_expression
+
+i++
+
+Line 16: logic_expression : rel_expression
+
+i++
+
+Line 16: expression : logic_expression
+
+i++
+
+Line 16: expression_statement : expression SEMICOLON
+
+i++;
+
+Line 16: statement : expression_statement
+
+i++;
+
+Line 16: statements : statements statement
+
+if(i==3)break;
+i++;
+
+Line 17: compound_statement : LCURL statements RCURL
+
+{
+if(i==3)break;
+i++;
+}
+
+ScopeTable # 1.2.1
+ScopeTable # 1.2
+0 --> < i : ID >
+2 --> < d : ID >
+ScopeTable # 1
+0 --> < var : ID >
+6 --> < main : ID >
+
+Line 17: variable : ID
+
+i
+
+Line 17: factor : variable
+
+i
+
+Line 17: unary_expression : factor
+
+i
+
+Line 17: term : unary_expression
+
+i
+
+Line 17: simple_expression : term
+
+i
+
+Line 17: factor : CONST_INT
+
+5
+
+Line 17: unary_expression : factor
+
+5
+
+Line 17: term : unary_expression
+
+5
+
+Line 17: simple_expression : term
+
+5
+
+Line 17: rel_expression : simple_expression RELOP simple_expression
+
+i<5
+
+Line 17: logic_expression : rel_expression
+
+i<5
+
+Line 17: expression : logic_expression
+
+i<5
+
+Line 17: statement: do_while
+
+do {
+if(i==3)break;
+i++;
+} while (i<5);
+
+Line 17: statements : statements statement
+
+float d;
+d=var(1,2*3)+3.5*2;
+int i;
+i=0;
+do {
+if(i==3)break;
+i++;
+} while (i<5);
+
+Line 18: factor : CONST_INT
+
+0
+
+Line 18: unary_expression : factor
+
+0
+
+Line 18: term : unary_expression
+
+0
+
+Line 18: simple_expression : term
+
+0
+
+Line 18: rel_expression : simple_expression
+
+0
+
+Line 18: logic_expression : rel_expression
+
+0
+
+Line 18: expression : logic_expression
+
+0
+
+Line 18: statement : RETURN expression SEMICOLON
+
+return 0;
+
+Line 18: statements : statements statement
+
+float d;
+d=var(1,2*3)+3.5*2;
+int i;
+i=0;
+do {
+if(i==3)break;
+i++;
+} while (i<5);
+return 0;
+
+Line 19: compound_statement : LCURL statements RCURL
+
+{
+float d;
+d=var(1,2*3)+3.5*2;
+int i;
+i=0;
+do {
+if(i==3)break;
+i++;
+} while (i<5);
+return 0;
+}
+
+ScopeTable # 1.2
+0 --> < i : ID >
+2 --> < d : ID >
+ScopeTable # 1
+0 --> < var : ID >
+6 --> < main : ID >
+
+Line 19: func_definition : type_specifier ID LPAREN RPAREN compound_statement
+
+int main(){
+float d;
+d=var(1,2*3)+3.5*2;
+int i;
+i=0;
+do {
+if(i==3)break;
+i++;
+} while (i<5);
+return 0;
+}
+
+Line 19: unit : func_definition
+
+int main(){
+float d;
+d=var(1,2*3)+3.5*2;
+int i;
+i=0;
+do {
+if(i==3)break;
+i++;
+} while (i<5);
+return 0;
+}
+
+Line 19: program : program unit
+
+int var(int a,int b){
+return a+b;
+}
+int main(){
+float d;
+d=var(1,2*3)+3.5*2;
+int i;
+i=0;
+do {
+if(i==3)break;
+i++;
+} while (i<5);
+return 0;
+}
+
+Line 19: start : program
+
+ScopeTable # 1
+0 --> < var : ID >
+6 --> < main : ID >
+
+Total number of lines: 19
+Total number of errors: 0

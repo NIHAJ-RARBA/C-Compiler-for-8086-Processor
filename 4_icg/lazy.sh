@@ -1,0 +1,1 @@
+cat input/bigtest.c > input/in.c && ./run-script.sh input/in.c 

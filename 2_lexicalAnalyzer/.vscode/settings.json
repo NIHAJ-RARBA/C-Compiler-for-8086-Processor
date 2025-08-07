@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.dbclient-js": "javascript",
+        "*.sql": "sql",
+        "iosfwd": "cpp",
+        "iostream": "cpp"
+    },
+    "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.intelliSenseMemoryLimit": 4096
+}

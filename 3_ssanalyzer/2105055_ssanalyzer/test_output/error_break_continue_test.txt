@@ -1,0 +1,10 @@
+Error at line 3: break outside loop or switch statement
+
+Error at line 36: break outside loop or switch statement
+
+Error at line 37: break outside loop or switch statement
+
+Error at line 38: continue outside loop
+
+Error at line 62: continue outside loop
+
