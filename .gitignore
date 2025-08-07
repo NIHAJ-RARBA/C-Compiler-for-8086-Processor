@@ -1,0 +1,41 @@
+# Large files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Compiled binaries
+*.exe
+*.out
+*.o
+*.obj
+
+# IDE files
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large PDF files (uncomment if needed)
+# *.pdf
+
+# Temporary files
+*.tmp
+*.temp
+*.log
